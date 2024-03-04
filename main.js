@@ -53,6 +53,6 @@ let row = tfooter.insertRow(0);
  //rows.innerHTML = 'Média Final'
  row.insertCell(0).innerHTML = 'Média Final'
  row.insertCell(1).innerHTML = media.toFixed(2) 
- row.insertCell(2).innerHTML = media >= 7 ? spanAprovado: spanReprovado;
+ row.insertCell(2).innerHTML = media >= notaMinima ? spanAprovado: spanReprovado;
 
 }
